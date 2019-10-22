@@ -1,14 +1,13 @@
 .btn {
   display: block;
   background-color: #64ABD1;
-  margin: 0 10px 20px;
+  margin: 0px 10px 10px 20px;
   cursor: pointer;
   width: 180px;
   font-size: 1.5rem;
   border-radius: 10px;
   color: white;
   text-align: center;
-  padding: 0.5rem;
   outline: none;
 }
 .individuals a {
@@ -25,9 +24,8 @@
   outline: none;
   text-decoration: none;
   width: 60%;
-  height: 3%;
-  margin: 0% 20%;
-  margin-top: 4%;
+  height: 5%;
+  margin: 5% 20%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -305,17 +303,17 @@ footer .fa {
 .team-members {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 1rem;
-  margin: 1rem;
+  justify-content: space-around;
+  padding: 0.5rem;
+  margin: 0.5rem;
   width: 100%;
 }
 @media (minimum-width: 1000px) {
   .team-members {
     display: flex;
     justify-content: space-evenly;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     width: 100%;
   }
 }
@@ -330,8 +328,11 @@ footer .fa {
   }
 }
 .team-members .individuals {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
   width: 30%;
-  height: 60%;
+  height: 30%;
   flex-basis: 30%;
   padding: 0.5rem;
   margin: 0.5rem;
@@ -367,7 +368,6 @@ footer .fa {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1.5rem;
-  height: 30%;
 }
 .team-members .individuals img {
   width: 100%;
@@ -377,9 +377,4 @@ footer .fa {
   .team-members .individuals img {
     height: 100%;
   }
-}
-.team-members .individuals a btnau {
-  display: flex;
-  justify-content: center;
-  margin: 0%;
 }

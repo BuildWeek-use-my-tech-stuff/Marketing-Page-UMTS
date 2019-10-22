@@ -1,16 +1,16 @@
 .team-members {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        padding: 1rem;
-        margin: 1rem;
+        justify-content: space-around;
+        padding: .5rem;
+        margin: .5rem;
         width: 100%;
 
     @media @desktop {
         display: flex;
         justify-content: space-evenly;
-        padding: 1rem;
-        margin: 1rem;
+        padding: .5rem;
+        margin: .5rem;
         width: 100%;
     }
 
@@ -23,8 +23,11 @@
         width: 100%;
     }
     .individuals {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
         width: 30%;
-        height: 60%;
+        height: 30%;
         flex-basis: 30%;
         padding: .5rem;
         margin: .5rem;
@@ -53,13 +56,12 @@
           font-size: 2rem;
           margin-bottom: 1rem;
           font-weight: bolder;
-      }
+        }
       p {
           text-align: center;
           font-size: 1.5rem;
           margin-top: 1.5rem;
-          height: 30%;
-    }
+        }
       img {
         width: 100%;
         height: 80%;
@@ -68,10 +70,7 @@
         height: 100%;
         }
     }
-      a btnau {
-        display: flex;
-        justify-content: center;
-        margin: 0%;
+      a {
       }
 }
 }

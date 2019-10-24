@@ -6,8 +6,8 @@
   flex-direction: column;
 
   .image-container {
-      padding: 1rem;
-      
+    padding: 1rem;
+
     img {
       width: 100%;
       height: 30rem;
@@ -20,6 +20,7 @@
     justify-content: space-evenly;
 
     a {
+      color:#5680E9;
       font-size: 1.5rem;
       text-decoration: none;
     }
@@ -56,16 +57,16 @@
     padding: 2rem;
     margin: 2rem 0;
     @media @phone {
-        flex-direction: column;
+      flex-direction: column;
     }
 
     .display-block {
       flex-basis: 30%;
 
       h2 {
-          text-align: center;
-          font-size: 1.5rem;
-          margin-bottom: 1.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
       }
       img {
         width: 100%;
@@ -73,12 +74,12 @@
     }
   }
   .featured-sellers {
-      margin-top: 2rem;
-      text-align: center;
+    margin-top: 2rem;
+    text-align: center;
 
-      h2 {
-          font-size: 2rem;
-      }
+    h2 {
+      font-size: 2rem;
+    }
 
     .sellers {
       display: flex;
@@ -93,9 +94,9 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        
+
         @media @phone {
-            flex-basis: 100%;
+          flex-basis: 100%;
         }
         .rating {
           margin: 2rem 0;
@@ -111,6 +112,14 @@
           width: 100%;
         }
       }
+    }
+  }
+  .buttonClass {
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
     }
   }
 }

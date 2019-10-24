@@ -3,12 +3,13 @@
   background-color: #64ABD1;
   margin: 0px 10px 10px 20px;
   cursor: pointer;
-  width: 180px;
+  width: 200px;
   font-size: 1.5rem;
   border-radius: 10px;
   color: white;
   text-align: center;
   outline: none;
+  height: 5rem;
 }
 .individuals a {
   display: block;
@@ -211,6 +212,7 @@ footer .fa {
   justify-content: space-evenly;
 }
 .header .nav-bar a {
+  color: #5680E9;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -299,6 +301,13 @@ footer .fa {
 }
 .main-wrapper .featured-sellers .sellers .seller img {
   width: 100%;
+}
+.main-wrapper .buttonClass {
+  display: flex;
+  justify-content: center;
+}
+.main-wrapper .buttonClass a {
+  text-decoration: none;
 }
 .team-members {
   display: flex;

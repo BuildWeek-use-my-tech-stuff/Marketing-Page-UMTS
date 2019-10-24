@@ -260,6 +260,11 @@ footer .fa {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 500px) {
+  .main-wrapper .features .display-block h2 {
+    margin-top: 1rem;
+  }
+}
 .main-wrapper .features .display-block img {
   width: 100%;
 }
@@ -308,6 +313,16 @@ footer .fa {
 }
 .main-wrapper .buttonClass a {
   text-decoration: none;
+}
+.main-wrapper .test {
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main-wrapper .test p {
+  font-size: 1.5rem;
+  margin: 1rem;
 }
 .team-members {
   display: flex;
